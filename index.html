@@ -23,14 +23,6 @@
             font-weight: bold;
         }
 
-        .content-wrapper {
-            text-align: left;
-            position:absolute;
-            inset: 0;
-            display:grid;
-            place-content: center;
-        }
-
         input[type='text'] {
             width: 450px;
             max-width: 100%;
@@ -43,16 +35,12 @@
             margin-bottom: 4px;
         }
 
-        #send-message {
-            font-weight: bold;
-            border: solid 1px #f3ab33;
-            color: #f3ab33 !important;
-            margin-top: 6px;
-        }
-
-        #send-message:hover {
-            background-color: #f3ab33;
-            color: #000 !important;            
+        .content-wrapper {
+            text-align: left;
+            position:absolute;
+            inset: 0;
+            display:grid;
+            place-content: center;
         }
 
         .content-wrapper a {
@@ -70,14 +58,26 @@
             margin: 0 auto 4px auto;
         }        
 
-        .waitlist-label {
+        .content-label {
             text-align: center;
             font-size: 18px;
             color: #fff !important;
         }
 
-        .waitlist-label span {
+        .content-label span {
             color: #f3ab33 !important;
+        }
+
+        #send-message {
+            font-weight: bold;
+            border: solid 1px #f3ab33;
+            color: #f3ab33 !important;
+            margin-top: 6px;
+        }
+
+        #send-message:hover {
+            background-color: #f3ab33;
+            color: #000 !important;            
         }
     </style>
 </head>
@@ -85,7 +85,7 @@
     <div class="content-wrapper">
         <a href="/"><img src="images/og-fans-logo.png" title="Be An OG Fan"/></a>
 
-        <p class="waitlist-label">
+        <p class="content-label">
             <span><i class="fab fa-twitter"></i> Twitter:</span> DM Blast
         </p>
 
